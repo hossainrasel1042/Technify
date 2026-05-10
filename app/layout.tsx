@@ -24,9 +24,8 @@ const londrina = Londrina_Sketch({
    variable: '--font-londrina'
  });
 export const metadata: Metadata = {
-  title: 'Nexus AI - Intelligent Automation Platform',
-  description: 'Transform your workflow with AI-powered automation. Nexus AI brings cutting-edge machine learning to your fingertips.',
-  generator: 'v0.app',
+  title: 'Technify - A Complete Solution For Your Business',
+  description: 'Transform your workflow with AI-powered automation. Technify will brings cutting-edge AI Agent to your fingertips.',
   icons: {
     icon: [
       {
