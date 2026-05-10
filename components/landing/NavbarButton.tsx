@@ -52,7 +52,7 @@ export default function NavbarButton() {
         {/* Label — black text, white on hover */}
         <span
           style={{ color: "black", background: "white" }}
-          className="absolute text-xs tracking-[0.2em] px-4 h-9 flex items-center rounded-[8px] transition-all duration-500 pointer-events-none group-hover:tracking-[0.3em] group-hover:bg-[oklch(0.55_0.2_170)]! group-hover:text-white!"
+          className="absolute text-xs whitespace-nowrap tracking-[0.2em] px-4 h-9 flex items-center rounded-[8px] transition-all duration-500 pointer-events-none group-hover:tracking-[0.3em] group-hover:bg-[oklch(0.55_0.2_170)]! group-hover:text-white!"
         >
           Talk with Us
         </span>

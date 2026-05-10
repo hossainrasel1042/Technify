@@ -126,14 +126,8 @@ export function CtaSection() {
           {/* Background */}
           <div className="absolute inset-0 bg-foreground" />
           <div className="absolute inset-0 grid-pattern opacity-10" />
-
-          {/* Cube background decoration */}
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 overflow-hidden opacity-25">
-            <AsciiCube className="w-[600px] h-[500px]" />
-          </div>
-
           <div className="relative z-10 px-8 lg:px-16 py-16 bg-transparent">
-            <div className="flex flex-col lg:flex-row items-start justify-between gap-12">
+            <div className="flex flex-col lg:flex-row items-start justify-center gap-10">
 
               {/* ── Left: Copy + CTA ── */}
               <div className="max-w-md">
