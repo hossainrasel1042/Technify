@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-
+import { Phone } from "lucide-react";
 export default function NavbarButton() {
   const boxRef = useRef<HTMLDivElement>(null);
 
@@ -46,16 +46,19 @@ export default function NavbarButton() {
             background: "oklch(0.55 0.2 170)",
             transition: "background 0.5s",
           }}
-          className="relative w-[140px] h-9 rounded-[8px]"
+          className="relative w-[145px] h-9 rounded-[8px]"
         />
 
         {/* Label — black text, white on hover */}
         <span
           style={{ color: "black", background: "white" }}
-          className="absolute text-xs whitespace-nowrap tracking-[0.2em] px-4 h-9 flex items-center rounded-[8px] transition-all duration-500 pointer-events-none group-hover:tracking-[0.3em] group-hover:bg-[oklch(0.55_0.2_170)]! group-hover:text-white!"
+          className="absolute text-xs whitespace-nowrap gap-1 tracking-[0.2em] px-4 h-9 flex items-center rounded-[8px] transition-all duration-500 pointer-events-none group-hover:tracking-[0.3em] group-hover:bg-[oklch(0.55_0.2_170)]! group-hover:text-white!"
         >
           Talk with Us
-        </span>
+          <Phone
+  className="w-4 h-4 shrink-0 fill-current group-hover:[color:white]! stroke-none"
+  style={{ color: "oklch(0.55 0.2 170)" }}
+/> </span>
       </a>
 
       {/* SVG Gooey Filter */}
